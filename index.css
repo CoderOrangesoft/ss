@@ -1,74 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+@font-face {
+    font-family: 'gamefont';
+    src: url('font/gamefont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+@font-face {
+    font-family: 'gamefont_big';
+    src: url('font/gamefont_big.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1 {
-    margin-bottom: 20px;
+* {
+    font-family: 'gamefont_big';
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-bottom: 5px;
-}
-
-input {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px;
-    background-color: #28a745;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#questionResult,
-#taskResult,
-#infoResult {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-#infoResult {
-    text-align: left;
+h1,
+h2,
+h3 {
+    font-family: 'gamefont';
 }
